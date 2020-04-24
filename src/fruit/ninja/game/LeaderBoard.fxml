@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fruit.ninja.game.LeaderBoardController">
+   <children>
+      <ImageView fitHeight="453.0" fitWidth="604.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="200.0" layoutX="223.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../scorrer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="165.0" layoutX="48.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../levvelone.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="165.0" layoutX="400.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../level2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="138.0" layoutX="432.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../arcade2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="165.0" layoutX="35.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../level3.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="l2" layoutX="341.0" layoutY="97.0" prefHeight="87.0" prefWidth="217.0" />
+      <VBox fx:id="l4" layoutX="355.0" layoutY="255.0" prefHeight="87.0" prefWidth="217.0" />
+      <VBox fx:id="l1" layoutX="35.0" layoutY="104.0" prefHeight="87.0" prefWidth="217.0" />
+      <VBox fx:id="l3" layoutX="29.0" layoutY="249.0" prefHeight="96.0" prefWidth="217.0" />
+      <Button layoutX="220.0" layoutY="350.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="39.0" prefWidth="153.0">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../back2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

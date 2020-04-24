@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/Fruit Ninja Game.jar"/>
+	<classpathentry kind="lib" path="dist/run1037877109/Fruit Ninja Game.jar"/>
+	<classpathentry kind="lib" path="dist/run1793646400/Fruit Ninja Game.jar"/>
+	<classpathentry kind="lib" path="dist/run543263720/Fruit Ninja Game.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

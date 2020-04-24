@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fruit.ninja.game.UserManagerController">
+   <children>
+      <ImageView fitHeight="374.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../back.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="userField" layoutX="23.0" layoutY="20.0" prefHeight="273.0" prefWidth="200.0" />
+      <TextField fx:id="nameField" layoutX="23.0" layoutY="310.0" prefHeight="25.0" prefWidth="200.0" promptText="Name" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="365.0" layoutY="303.0" mnemonicParsing="false" onAction="#okPressed" style="-fx-background-radius: 20;">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../go.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="534.0" layoutY="137.0" mnemonicParsing="false" onAction="#guestPressed" style="-fx-background-radius: 20;">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../guest.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="current" layoutX="485.0" layoutY="85.0" mnemonicParsing="false" onMousePressed="#PrintNames" style="-fx-background-radius: 20;">
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../current.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="485.0" layoutY="14.0" mnemonicParsing="false" onMousePressed="#NewPressed" style="-fx-background-radius: 20;">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="213.0" onKeyPressed="#NewPressed" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../new%20user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="634.0" layoutY="330.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-radius: 20;">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../exit2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
